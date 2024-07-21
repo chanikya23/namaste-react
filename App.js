@@ -6,11 +6,12 @@
     </div>
 </div>
 */
-
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
 const heading1= React.createElement("h1",{},[
     React.createElement("div",{id:"child1"},[
-        React.createElement("h1",{},"this h1 is child1"),
+        React.createElement("h1",{},"this h1 is child1 from the actual react"),
         React.createElement("h2",{},"This is h2 child1")
     ]),
     React.createElement("div",{id:"child2"},[
