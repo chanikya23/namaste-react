@@ -4,6 +4,8 @@
   "description": "This is react from Namaste React",
   
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "just"
   },
   "repository": {
