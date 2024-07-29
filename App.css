@@ -1,11 +1,9 @@
-.header{
+/* .header{
     display: flex;
     justify-content: space-between;
     border: 2px solid black;
 }
-.header:hover{
-    border-radius: 20px;
-}
+
 .logo-container img{
     border-radius: 20px;
     width: 100px;
@@ -29,7 +27,6 @@
 }
 .res-card{
     width: 190px;
-    /* height:450px; */
     margin: 5px;
     background-color: rgb(222, 226, 230);
 }
@@ -43,4 +40,4 @@
     border:2px solid rgb(110, 199, 215);
     cursor: pointer;
     box-shadow: 5px 5px rgb(132, 172, 174);
-}
+} */

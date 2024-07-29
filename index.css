@@ -1,9 +1,70 @@
-/* body{
-    color:blue;
-} */
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+
+.logo-container img{
+    border-radius: 20px;
+    width: 100px;
+    padding:5px;
+    margin-left:10px;
+}
+.nav-items ul{
+    display: flex;
+}
+.nav-items ul li{
+    list-style-type: none;
+    margin: 10px;
+    font-size: 25px;
+}
+.nav-items ul li:hover{
+    text-decoration: underline;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.res-card{
+    width: 190px;
+    /* height:450px; */
+    margin: 5px;
+    background-color: rgb(222, 226, 230);
+}
+.res-card img{
+    width:170px;
+    height: 170px;
+    margin:5px;
+}
+
+.res-card:hover{
+    border:2px solid rgb(110, 199, 215);
+    cursor: pointer;
+    box-shadow: 5px 5px rgb(132, 172, 174);
+}
+.login{
+    padding: 4px 15px;
+    cursor: pointer;
+    margin-right: 10px;
+}
 .filter{
     margin: 10px;
+    display: flex;
 }
 .filter button:hover{
     cursor: pointer;
+}
+.search{
+    margin-right: 20px;
+}
+
+.shimmer-container{
+    display:flex;
+    flex-wrap: wrap;
+}
+.shimmer-card{
+    margin:20px;
+    width:200px;
+    height:400px;
+    background-color: #f0f0f0;
 }
