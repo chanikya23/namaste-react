@@ -21,26 +21,26 @@
 .nav-items ul li:hover{
     text-decoration: underline;
 }
+.body{
+    margin-left: 50px;
+}
 .res-container{
     display: flex;
     flex-wrap: wrap;
 }
 .res-card{
-    width: 190px;
-    /* height:450px; */
+    width: 180px;
     margin: 5px;
-    background-color: rgb(222, 226, 230);
+    color: black;
 }
 .res-card img{
-    width:170px;
-    height: 170px;
-    margin:5px;
+    width:100%;
+    height: 150px;
+    border-radius: 20px;
+    object-fit: cover;
 }
-
-.res-card:hover{
-    border:2px solid rgb(110, 199, 215);
-    cursor: pointer;
-    box-shadow: 5px 5px rgb(132, 172, 174);
+.details{
+    margin-top: -20px;
 }
 .login{
     padding: 4px 15px;
@@ -51,11 +51,14 @@
     margin: 10px;
     display: flex;
 }
+.filter button{
+    margin-left: 10px;
+}
 .filter button:hover{
     cursor: pointer;
 }
 .search{
-    margin-right: 20px;
+    margin-left: 30%;
 }
 
 .shimmer-container{
@@ -68,3 +71,23 @@
     height:400px;
     background-color: #f0f0f0;
 }
+.items {
+    width: 95%; 
+    overflow-x: auto;
+}
+
+.items-img {
+    display: flex; 
+    flex-wrap: nowrap; 
+    gap: 10px; 
+}
+.items-img > div {
+    flex: 0 0 auto; 
+}
+.items-img img {
+    width: 180px; 
+    height: auto;
+    display: block; 
+    cursor: pointer;
+}
+

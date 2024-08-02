@@ -1,0 +1,22 @@
+.menu{
+    margin-left:280px;
+    margin-top:20px;
+}
+.card:hover{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    box-shadow:2px 2px 2px 2px;
+}
+.card{
+    width: 75%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding:30px;
+}
+.related-menu{
+    align-items: center;
+    justify-content: space-evenly;
+}
