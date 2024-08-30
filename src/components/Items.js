@@ -21,7 +21,7 @@ const Items = () => {
 
     return (
         <>
-        <h1 className="ml-5 text-lg">What's on your mind?</h1>
+        <h1 className="ml-5 text-2xl font-black">What's on your mind?</h1>
         <div className='item w-[95%] overflow-x-auto ml-5'>
             <div className='items-img flex flex-nowrap gap-2.5'>
             {listOfItems.map((item, index) => (
